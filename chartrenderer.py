@@ -13,7 +13,7 @@ import maplayout
 import tile_provider
 import chartgeometry
 
-class ChartRenderer:
+class ChartRenderer (object):
     def __init__ (self, chart_geometry):
         assert chart_geometry is not None
         self.geometry = chart_geometry

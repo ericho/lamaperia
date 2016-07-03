@@ -34,7 +34,7 @@ default_map_to_top_margin_mm  = inch_to_mm (0.375)
 default_scale_xpos_mm = inch_to_mm (5.5)
 default_scale_ypos_mm = inch_to_mm (8.125)
 
-class MapLayout:
+class MapLayout (object):
     def __init__ (self):
         # Sane defaults for if a config file is not specified
 

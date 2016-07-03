@@ -25,7 +25,7 @@ small_ticks_for_20000 = [ (0, 0),
                           (400, 400),
                           (500, 500) ]
 
-class ScaleRenderer:
+class ScaleRenderer (object):
     def __init__ (self, map_layout):
         self.map_layout = map_layout
 

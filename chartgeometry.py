@@ -7,7 +7,7 @@ import testutils
 import maplayout
 import tile_provider
 
-class ChartGeometry:
+class ChartGeometry (object):
     def __init__ (self, map_layout, tile_provider):
         assert map_layout is not None
         assert tile_provider is not None

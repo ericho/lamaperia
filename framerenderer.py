@@ -14,7 +14,7 @@ def arc_minutes_to_degrees (arc_minutes):
 def fmod_positive (x, y):
     return x - math.floor (x / y) * y
 
-class FrameRenderer:
+class FrameRenderer (object):
     def __init__ (self, chart_geometry):
         assert chart_geometry is not None
         self.geometry = chart_geometry

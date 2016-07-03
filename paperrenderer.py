@@ -2,7 +2,7 @@ from units import *
 import cairo
 import chartrenderer
 
-class PaperRenderer:
+class PaperRenderer (object):
     def __init__ (self, layout):
         self.layout = layout
 

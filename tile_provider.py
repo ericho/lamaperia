@@ -3,7 +3,7 @@ import unittest
 import cairo
 import io
 
-class TileProvider:
+class TileProvider (object):
     def get_tile_png (self, z, x, y):
         pass
 
